@@ -1,0 +1,163 @@
+body, html {
+  height: 100%;
+}
+
+.navbar{
+  z-index: 1;
+  width: 100%;
+  position:fixed;
+}
+.parallax {
+  /* The image used
+  http://www.qcc.cuny.edu/academies/images/ba-intro-bg.jpg*/
+  /*background-image: url('https://www.blackstone.edu/wp-content/uploads/2014/08/Medical-Office-Assistant.jpg');*/
+background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://www.qcc.cuny.edu/_files/images/img-1.jpg');
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-group{
+  text-align:center;
+  display: inline-block;
+
+}
+.degree-img{
+  max-width: 100%;
+  padding:20px;
+}
+.col-sm-6{
+  width: 30%;
+  float: left;
+  display: inline-block;
+}
+.course-desc{
+  padding: 5%;
+}
+.parallax-biz{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://research.umn.edu/sites/research.umn.edu/files/styles/ovpr_large/public/blog-students-library.jpg?itok=MUjl9AfB');
+
+   height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-health{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://www.qcc.cuny.edu/academies/images/hrs2.jpg');
+
+   height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-liberal{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://www.qcc.cuny.edu/academies/images/intro-bg-la.jpg');
+
+   height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-stem{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://www.qcc.cuny.edu/academies/images/sa-banner-bg.jpg');
+
+   height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax-vapa{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('http://www.qcc.cuny.edu/academies/images/va-banner-bg.jpg');
+
+   height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.para-text {
+  text-align: center;
+  position: absolute;
+  text-shadow: 1px 1px black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.position1{
+
+    text-align: center;
+    position: absolute;
+    text-shadow: 1px 1px black;
+    left: 50%;
+    transform: translate(-50%, 260%);
+    color: white;
+
+}
+.position2{
+
+    text-align: center;
+    position: absolute;
+    text-shadow: 1px 1px black;
+    left: 50%;
+    transform: translate(-50%, 260%);
+    color: white;
+
+}
+.position3{
+  text-align: center;
+  position: absolute;
+  text-shadow: 1px 1px black;
+  left: 50%;
+  transform: translate(-50%, 260%);
+  color: white;
+}
+.position4{
+  text-align: center;
+  position: absolute;
+  text-shadow: 1px 1px black;
+  left: 50%;
+  transform: translate(-50%, 260%);
+  color: white;
+}
+.position5{
+  text-align: center;
+  position: absolute;
+  text-shadow: 1px 1px black;
+  left: 50%;
+  transform: translate(-50%, 260%);
+  color: white;
+}
+
+.space{
+  padding:10px;
+}
+.academy-img{
+  width:50%;
+  padding:20px;
+}
+h1 {
+    color: white;
+}
+p{
+  text-align: center;
+}
